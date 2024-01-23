@@ -47,7 +47,7 @@ ENV CLEAN_STORE_MESSAGE_UP=true
 ENV CLEAN_STORE_CONTACTS=true
 ENV CLEAN_STORE_CHATS=true
 
-ENV DATABASE_ENABLED=false
+ENV DATABASE_ENABLED=true
 ENV DATABASE_CONNECTION_URI=mongodb://root:root@mongodb:27017/?authSource=admin&readPreference=primary&ssl=false&directConnection=true
 ENV DATABASE_CONNECTION_DB_PREFIX_NAME=evolution
 
